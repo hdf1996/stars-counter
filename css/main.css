@@ -34,8 +34,8 @@ html {
 
 .img {
   display: block;
-  width: 33vw;
-  height: 33vw;
+  width: 33vh;
+  height: 33vh;
   border-radius: 50vw;
   overflow: hidden;
 }
@@ -51,7 +51,7 @@ html {
 }
 
 .input {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   text-transform: uppercase;
   outline: none;
@@ -76,4 +76,12 @@ html {
 
 .fetched .stars-count {
   color: black;
+}
+
+.github {
+  display: block;
+  color: black;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
