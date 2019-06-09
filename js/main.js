@@ -40,8 +40,6 @@
     lastFetch = fetch(`https://crossorig.in/https://stars-counter-api.herokuapp.com/stars/${username}`)
                   .then(res => (res.status === 200) ? res.json() : notFound())
                   .then((res) => {
-                    console.log(res)
-
                     if(!res) return;
                     $avatarContainer.style.width = "33vh";
                     $avatarContainer.style.height = "33vh";
