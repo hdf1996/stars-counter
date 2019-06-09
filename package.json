@@ -1,15 +1,11 @@
 {
-  "name": "vanilla-frontend-template",
-  "version": "0.0.1",
-  "description": "My template for simple web pages without major requirements",
+  "name": "stars-counter",
+  "version": "0.1.0",
+  "description": "A simple web app to count stars on all repos of certain user",
   "main": "index.js",
   "scripts": {
     "start": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hdf1986/vanilla-frontend-template.git"
   },
   "author": "hdf1986 <hi@hugo.farji.me>",
   "license": "MIT",
