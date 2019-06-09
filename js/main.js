@@ -12,8 +12,6 @@
   let loading = true;
 
   const changeTo = (newUsername) => {
-
-
     if(username === newUsername) return;
     username = newUsername
     clearTimeout(lastFetch);
